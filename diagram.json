@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Mohammadreza Zamani",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 9.6, "left": -43.16, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 39.9,
+      "left": -244.1,
+      "attrs": { "distance": "286" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:5V", "ultrasonic1:VCC", "red", [ "h0" ] ],
+    [ "ultrasonic1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "ultrasonic1:TRIG", "esp:12", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "esp:13", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
