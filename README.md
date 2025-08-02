@@ -1,6 +1,6 @@
 # IoT Parking Sensor – Energy Optimization & Simulation
 
-This project focuses on designing and analyzing an **ultra-low power IoT parking sensor system** using:
+This project focuses on designing and analyzing an ultra-low power IoT parking sensor system using:
 - **ESP32 microcontroller**
 - **HC-SR04 ultrasonic sensor**
 - **ESP-NOW protocol for transmission**
@@ -39,6 +39,4 @@ All data is collected, simulated, and analyzed in a Wokwi-based environment to a
 
 ## 📉 Battery Lifetime Estimation
 
-> Lifetime is derived from measured power (mW) × duration (s) and calculated energy (J). See Jupyter notebooks and report for exact computations.
-
-➡️ [Simulate project on Wokwi](https://wokwi.com/projects/425241064895099905)
+> Lifetime is derived from measured power (mW) × duration (s) and calculated energy (J).
