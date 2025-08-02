@@ -42,7 +42,3 @@ All data is collected, simulated, and analyzed in a Wokwi-based environment to a
 > Lifetime is derived from measured power (mW) × duration (s) and calculated energy (J). See Jupyter notebooks and report for exact computations.
 
 ➡️ [Simulate project on Wokwi](https://wokwi.com/projects/425241064895099905)
-
----
-
-> 🧪 Part of IoT Challenge 1 – focused on real-world energy-aware system design for smart cities and parking automation.
