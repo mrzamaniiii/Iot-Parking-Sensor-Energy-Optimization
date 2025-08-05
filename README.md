@@ -7,7 +7,7 @@ This project focuses on designing and analyzing an ultra-low power IoT parking s
 
 All data is collected, simulated, and analyzed in a Wokwi-based environment to assess energy consumption, battery lifetime, and network optimization.
 
-## 🔧 Features
+## Features
 
 - **Distance-based vehicle detection**
 - **Wireless transmission via ESP-NOW**
@@ -16,7 +16,7 @@ All data is collected, simulated, and analyzed in a Wokwi-based environment to a
 - **Optimal sink placement for maximizing sensor network lifetime**
 - **Wokwi JSON simulation diagram included**
 
-## 📁 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
@@ -30,13 +30,9 @@ All data is collected, simulated, and analyzed in a Wokwi-based environment to a
 | `Exercise.pdf` | Sink placement analysis and optimization |
 | `wokwi-project.txt` | Link to online Wokwi simulation |
 
-## 🧠 Key Results
+## Key Results
 
 - **Battery Lifetime**: Up to **13.9 hours** with sensor-only operations
 - **Energy Consumption**: ~7.51 J per full sensing-transmitting cycle
 - **Optimal Sink Placement**: Found via analytical and Python (Powell algorithm) methods
 - **Simulation**: Fully replicable via [Wokwi link](https://wokwi.com/projects/425241064895099905)
-
-## 📉 Battery Lifetime Estimation
-
-> Lifetime is derived from measured power (mW) × duration (s) and calculated energy (J).
