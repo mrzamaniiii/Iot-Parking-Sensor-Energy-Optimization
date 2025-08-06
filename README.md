@@ -32,7 +32,7 @@ All data is collected, simulated, and analyzed in a Wokwi-based environment to a
 
 ## Key Results
 
-- **Battery Lifetime**: Up to **13.9 hours** with sensor-only operations
+- **Battery Lifetime**: Up to 13.9 hours with sensor-only operations
 - **Energy Consumption**: ~7.51 J per full sensing-transmitting cycle
 - **Optimal Sink Placement**: Found via analytical and Python (Powell algorithm) methods
 - **Simulation**: Fully replicable via [Wokwi link](https://wokwi.com/projects/425241064895099905)
